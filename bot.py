@@ -73,7 +73,7 @@ async def time(ctx):
 suggest_aliases = ["suggestion"]
 @bot.command(aliases = suggest_aliases)
 async def suggest(ctx, *, suggestion):
-    me = bot.get_user(723413754800373780)
+    me = bot.get_user(Your ID)
     await  ctx.send("Check your DM for confirmation!")
     await ctx.author.send("Your suggestion was sent. Meanwhile, have a :cupcake:")
     await me.send(suggestion)

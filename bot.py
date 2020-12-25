@@ -107,7 +107,7 @@ async def help(ctx):
                "rdiv - Returns the quotient when 2 random numbers from 1 to 20 are divided"
     embed.add_field(name="Math Stuff", value=math_str, inline=False)
     embed.add_field(name='\n' + "Invite the bot to your server",
-                value="https://discord.com/api/oauth2/authorize?client_id=763733019072135168&permissions=0&scope=bot")
+                    value="OAuth2 Link")
     embed.set_footer(text="Please use the suggest command for suggestions and bug reports.")
     await ctx.send(embed=embed)
 

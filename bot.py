@@ -4,7 +4,7 @@ import datetime
 import numpy
 import random
 
-bot = commands.Bot(command_prefix='<', help_command=None, description=None)
+bot = commands.Bot(command_prefix='Your Prefix', help_command=None, description=None)
 
 @bot.event
 async def on_ready():
